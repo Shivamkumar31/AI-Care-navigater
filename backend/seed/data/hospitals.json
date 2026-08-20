@@ -1,0 +1,208 @@
+[
+  {
+    "name": "City Care Multispecialty Hospital",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "MG Road, Bengaluru",
+    "specialties": ["Cardiology", "Orthopedics", "General Medicine"],
+    "networkSchemes": ["Arogya-Karnataka", "Yeshaswini", "ESI"],
+    "networkInsurers": ["Star Health", "HDFC Ergo"],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 1200, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 2500, "available": true },
+      { "category": "Private", "indicativeCostPerDay": 5000, "available": true },
+      { "category": "ICU-only", "indicativeCostPerDay": 9000, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Angioplasty", "costRange": "1,50,000 - 2,50,000" },
+      { "procedure": "Knee Replacement", "costRange": "2,00,000 - 3,50,000" }
+    ],
+    "rating": 4.3,
+    "beds": 250,
+    "contact": "080-4000-1000"
+  },
+  {
+    "name": "Sunrise Government Hospital",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "Jayanagar, Bengaluru",
+    "specialties": ["General Medicine", "Pediatrics", "Gynecology"],
+    "networkSchemes": ["Arogya-Karnataka", "ESI", "PM-JAY"],
+    "networkInsurers": [],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 300, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 900, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Normal Delivery", "costRange": "10,000 - 20,000" }
+    ],
+    "rating": 3.8,
+    "beds": 400,
+    "contact": "080-2222-3333"
+  },
+  {
+    "name": "Yeshaswini Rural Care Center",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Vijayanagar, Mysuru",
+    "specialties": ["General Surgery", "Orthopedics"],
+    "networkSchemes": ["Yeshaswini", "Arogya-Karnataka"],
+    "networkInsurers": [],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 250, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 700, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Appendectomy", "costRange": "25,000 - 45,000" }
+    ],
+    "rating": 3.9,
+    "beds": 120,
+    "contact": "0821-244-5566"
+  },
+  {
+    "name": "Apex Heart & Multispecialty Institute",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Andheri East, Mumbai",
+    "specialties": ["Cardiology", "Neurology", "Oncology"],
+    "networkSchemes": ["ESI", "PM-JAY", "Private"],
+    "networkInsurers": ["Star Health", "ICICI Lombard", "Niva Bupa"],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 1500, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 3500, "available": true },
+      { "category": "Private", "indicativeCostPerDay": 7500, "available": true },
+      { "category": "ICU-only", "indicativeCostPerDay": 15000, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Bypass Surgery", "costRange": "3,50,000 - 5,50,000" },
+      { "procedure": "Chemotherapy Cycle", "costRange": "40,000 - 80,000" }
+    ],
+    "rating": 4.6,
+    "beds": 500,
+    "contact": "022-6600-7700"
+  },
+  {
+    "name": "PM-JAY Community Health Hospital",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Hadapsar, Pune",
+    "specialties": ["General Medicine", "Orthopedics", "Pediatrics"],
+    "networkSchemes": ["PM-JAY", "ESI"],
+    "networkInsurers": [],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 400, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 1000, "available": true },
+      { "category": "ICU-only", "indicativeCostPerDay": 4000, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Fracture Surgery", "costRange": "30,000 - 60,000" }
+    ],
+    "rating": 4.0,
+    "beds": 300,
+    "contact": "020-3344-5566"
+  },
+  {
+    "name": "Metro Private Care Hospital",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Saket, Delhi",
+    "specialties": ["Orthopedics", "Cardiology", "Dermatology"],
+    "networkSchemes": ["Private", "Employer", "ESI"],
+    "networkInsurers": ["Max Bupa", "HDFC Ergo", "Star Health"],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 1800, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 4000, "available": true },
+      { "category": "Private", "indicativeCostPerDay": 9000, "available": false },
+      { "category": "ICU-only", "indicativeCostPerDay": 16000, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Knee Replacement", "costRange": "2,50,000 - 4,00,000" }
+    ],
+    "rating": 4.4,
+    "beds": 350,
+    "contact": "011-4455-6677"
+  },
+  {
+    "name": "ESI Model Hospital",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Okhla, Delhi",
+    "specialties": ["General Medicine", "General Surgery", "Gynecology"],
+    "networkSchemes": ["ESI"],
+    "networkInsurers": [],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 200, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 600, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Gallbladder Surgery", "costRange": "35,000 - 55,000" }
+    ],
+    "rating": 3.7,
+    "beds": 280,
+    "contact": "011-2626-3737"
+  },
+  {
+    "name": "Green Valley Multispecialty Hospital",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Banjara Hills, Hyderabad",
+    "specialties": ["Nephrology", "Cardiology", "Orthopedics"],
+    "networkSchemes": ["PM-JAY", "Private"],
+    "networkInsurers": ["Niva Bupa", "Star Health"],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 1000, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 2200, "available": true },
+      { "category": "Private", "indicativeCostPerDay": 4800, "available": true },
+      { "category": "ICU-only", "indicativeCostPerDay": 8500, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Dialysis Session", "costRange": "1,500 - 3,000" },
+      { "procedure": "Angioplasty", "costRange": "1,60,000 - 2,40,000" }
+    ],
+    "rating": 4.2,
+    "beds": 220,
+    "contact": "040-7788-9900"
+  },
+  {
+    "name": "Coastal Care Hospital",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "T. Nagar, Chennai",
+    "specialties": ["Pediatrics", "Orthopedics", "General Medicine"],
+    "networkSchemes": ["PM-JAY", "ESI", "Private"],
+    "networkInsurers": ["ICICI Lombard"],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 700, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 1800, "available": true },
+      { "category": "Private", "indicativeCostPerDay": 3800, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Fracture Surgery", "costRange": "40,000 - 70,000" }
+    ],
+    "rating": 4.1,
+    "beds": 180,
+    "contact": "044-2233-4455"
+  },
+  {
+    "name": "Lakeside Specialty Hospital",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "Whitefield, Bengaluru",
+    "specialties": ["Neurology", "Oncology", "Cardiology"],
+    "networkSchemes": ["Private", "Employer"],
+    "networkInsurers": ["Star Health", "HDFC Ergo", "Niva Bupa"],
+    "roomTypes": [
+      { "category": "General Ward", "indicativeCostPerDay": 2000, "available": true },
+      { "category": "Semi-Private", "indicativeCostPerDay": 4500, "available": true },
+      { "category": "Private", "indicativeCostPerDay": 9500, "available": true },
+      { "category": "ICU-only", "indicativeCostPerDay": 18000, "available": true }
+    ],
+    "indicativeProcedureCosts": [
+      { "procedure": "Chemotherapy Cycle", "costRange": "50,000 - 90,000" },
+      { "procedure": "Brain Tumor Surgery", "costRange": "4,00,000 - 7,00,000" }
+    ],
+    "rating": 4.7,
+    "beds": 300,
+    "contact": "080-6677-8899"
+  }
+]

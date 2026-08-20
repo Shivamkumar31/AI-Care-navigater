@@ -1,0 +1,39 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo:7
+    container_name: acn-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    build: ./backend
+    container_name: acn-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      PORT: 5000
+      MONGO_URI: mongodb://mongo:27017/ai-care-navigator
+      JWT_SECRET: change_this_secret_in_production
+      JWT_EXPIRES_IN: 7d
+      CLIENT_ORIGIN: http://localhost:3000
+    depends_on:
+      - mongo
+
+  frontend:
+    build: ./frontend
+    container_name: acn-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:5000/api
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:

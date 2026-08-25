@@ -8,6 +8,7 @@ const authRoutes = require("./routes/auth.routes");
 const insuranceRoutes = require("./routes/insurance.routes");
 const hospitalRoutes = require("./routes/hospital.routes");
 const journeyRoutes = require("./routes/journey.routes");
+const adminRoutes = require("./routes/admin.routes");
 
 const app = express();
 
@@ -23,6 +24,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/insurance", insuranceRoutes);
 app.use("/api/hospitals", hospitalRoutes);
 app.use("/api/journeys", journeyRoutes);
+app.use("/api/admin", adminRoutes);
 
 // 404 handler
 app.use((req, res) => res.status(404).json({ message: "Route not found" }));
